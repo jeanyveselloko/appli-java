@@ -45,4 +45,4 @@ jobs:
           app-name: 'application-java'
           slot-name: 'Production'
           publish-profile: ${{ secrets.publishprofile }}
-          package: '*.jar'
+          package: '*.jar
