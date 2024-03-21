@@ -46,4 +46,5 @@ jobs:
           app-name: 'application-java'
           slot-name: 'Production'
           publish-profile: ${{ secrets.publishprofile }}
-          package: '*.jar'
+          package: '${{ github.workspace }}/target/*.jar'
+          enable-diagnostic-logging: true
